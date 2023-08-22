@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Web</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+    <div id="container">
+        <h1>&bull; FORMULARIO &bull;</h1>
+        <div class="underline">
+        </div>
+        <div class="icon_wrapper">
+            <i class="fa-solid fa-code"></i>
+        </div>
+        <form action="#" method="post" id="contact_form">
+          <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="Nombre Completo" name="name" id="name_input" required>
+          </div>
+          <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder="Email" name="email" id="email_input" required>
+          </div>
+          <div class="telephone">
+            <label for="name"></label>
+            <input type="text" placeholder="Numero de Telefono" name="telephone" id="telephone_input" required>
+          </div>
+          <div class="age">
+            <label for="name"></label>
+            <input type="text" placeholder="Edad" name="age" id="age_input" required>
+          </div>
+          <div class="subject">
+            <label for="subject"></label>
+            <select placeholder="Subject line" name="subject" id="subject_input" required>
+              <option disabled hidden selected>País</option>
+              <option>Argentina</option>
+              <option>Perú</option>
+              <option>Brasil</option>
+              <option>Chile</option>
+              <option>Colombia</option>
+            </select>
+          </div>
+          <div class="message">
+            <label for="message"></label>
+            <textarea name="message" placeholder="Cuentanos sobre ti..." id="message_input" cols="30" rows="5" required></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Enviar" id="form_button" />
+          </div>
+        </form>
+      </div>
+</body>
+</html>
